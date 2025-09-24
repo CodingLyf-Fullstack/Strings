@@ -62,7 +62,7 @@ public class FindAllPermutations {
             if (!used[i]) {
                 used[i] = true; // Mark character as used
                 backtrack(str, path + str.charAt(i), output, used); // Recurse deeper
-                used[i] = false; // Backtrack → unmark, so it can be used in other branches
+                used[i] = false; // Backtrack and unmark, so it can be used in other branches
             }
         }
     }
