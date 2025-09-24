@@ -37,8 +37,7 @@ public class StringCompression {
             } else {
                 // Append previous character
                 sb.append(str.charAt(i - 1));
-                // Append count only if greater than 1
-                if (count > 1) sb.append(count);
+                sb.append(count);
                 count = 1; // Reset count for next character
             }
         }
