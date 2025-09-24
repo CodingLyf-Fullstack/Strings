@@ -6,8 +6,8 @@ package com.strings;
  * Explanation:
  * A string s2 is a rotation of s1 if it can be obtained by shifting characters
  * of s1 circularly. For example:
- *   s1 = "abcd", s2 = "cdab" → rotation (shift "ab" to the end).
- *   s1 = "abcd", s2 = "acbd" → not a rotation.
+ *   s1 = "abcd", s2 = "cdab" -> rotation (shift "ab" to the end).
+ *   s1 = "abcd", s2 = "acbd" -> not a rotation.
  *
  * Trick:
  * If you concatenate s1 with itself (s1+s1), every possible rotation of s1 
